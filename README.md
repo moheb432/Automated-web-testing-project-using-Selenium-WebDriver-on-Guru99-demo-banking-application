@@ -3,7 +3,34 @@ Implemented test scenarios for customer creation, editing, and validation using 
 
 📎 Full Web demo link:  
 [Guru99 Banking Demo](https://demo.guru99.com/V4/index.php)
-
+<div style="
+        background-color: #000000; 
+        color: #ffffff; 
+        padding: 10px 20px; 
+        border-radius: 10px; 
+        font-size: 1.1rem; 
+        font-weight: 600; 
+        display: flex; 
+        align-items: center; 
+        gap: 12px; 
+        transition: background-color 0.3s ease;
+    ">
+        <!-- أيقونة الشعار (مثال على SVG بسيط أو يمكنك استبدالها بصورة Guru99 PNG/SVG) -->
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2L12 22M2 12L22 12M12 2A10 10 0 0 1 22 12A10 10 0 0 1 12 22A10 10 0 0 1 2 12A10 10 0 0 1 12 2Z" 
+                  stroke="#ffeaa7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        
+        <!-- نص الزر -->
+        <span>انطلق للتعلم مع Guru99</span>
+        
+        <!-- أيقونة السهم -->
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 12H19" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12 5L19 12L12 19" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </div>
+</a>
 ## 📚 Project Scope
 
 This repository includes:  
