@@ -89,7 +89,14 @@ Observed issues:
 1. Validation messages sometimes inconsistent  
 2. UI responsiveness slower than expected for certain forms  
 3. Certain fields allow invalid input (numbers, special characters)
-  
+#  PNG Samples
+<img width="787" height="401" alt="image" src="https://github.com/user-attachments/assets/db3edac1-cc19-4570-9f6d-74c8e6aee576" />
+
+
+ <img width="807" height="437" alt="image" src="https://github.com/user-attachments/assets/82facd9f-082d-4ed5-b445-94d070f03d87" />
+
+<img width="832" height="826" alt="image" src="https://github.com/user-attachments/assets/f776e734-3b51-4cff-aa6f-7382bc614471" />
+
 #  Author
 
 - **Moheb Ashraf**
