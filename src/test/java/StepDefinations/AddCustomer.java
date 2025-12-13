@@ -50,13 +50,11 @@ public class AddCustomer extends Utils {
 
     @When("enter wrong data")
     public void enterWrongData() {
-
     }
 
     @Then("the website should give {string}")
     public void the_website_should_give(String string){
         String actualMessage = driver.findElement(By.xpath("//*[@id=\"customer\"]/tbody/tr[1]/td/p")).getText();
-        System.out.println(actualMessage);
         Assert.assertEquals(actualMessage, "Customer Registered Successfully!!!");
 
     }
@@ -69,6 +67,9 @@ public class AddCustomer extends Utils {
 
     }
 
+    @And("user navigates to Customised Statement webpage and applied  data {string} {string} {string} {string}")
+    public void userNavigatesToCustomisedStatementWebpageAndAppliedData(String arg0, String arg1, String arg2, String arg3, String arg4, String arg5, String arg6, String arg7) {
+    }
 }
 
 

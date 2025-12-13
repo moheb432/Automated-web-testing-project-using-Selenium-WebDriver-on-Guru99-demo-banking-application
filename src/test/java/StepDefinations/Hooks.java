@@ -5,8 +5,7 @@ import org.openqa.selenium.WebDriver;
 import resources.Utils;
 
 public class Hooks {
-
-    @After
+@After
     public void tearDown() {
         if (Utils.driver != null) {
             Utils.driver.quit();

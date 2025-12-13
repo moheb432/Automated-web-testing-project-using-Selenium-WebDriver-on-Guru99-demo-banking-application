@@ -1,4 +1,4 @@
-Feature: test  new customer creation if user login is MGR account
+Feature: Verify  ADD new customer with MGR account
 
   Scenario Outline: Verify MGR can log in and successfully add a customer
     Given the user open the website provided valid login details "mngr647426" "vAsAvEg"
@@ -7,8 +7,8 @@ Feature: test  new customer creation if user login is MGR account
     Then the website should give "Customer Registered Successfully!!!"
 
    Examples:
-     | CustomerName | Gender | DOB        | Address             | City  | State             | PIN    | Telephone   | Email               | Password |
-     | Ahmed Hassan | Male   | 12-05-1998 | 15 El Tahrir Street | Cairo | Cairo Governorate | 115111 | 01005557893 | ahmssed.h@gmail.com | dsdasd   |
+     | CustomerName | Gender | DOB        | Address             | City  | State             | PIN    | Telephone   | Email                   | Password |
+#     | Ahmed Hassan | Male   | 12-05-1998 | 15 El Tahrir Street | Cairo | Cairo Governorate | 115111 | 01005557893 | ahmssjj5565jh@gmail.com | dsdasd   |
 
 
   Scenario Outline: Verify Rejection on Adding customer with invalid Data
@@ -40,7 +40,7 @@ Feature: test  new customer creation if user login is MGR account
       | Ali Ramadan   | Male   | 11-23-1995 | 12 Lorem Ipsum Apartment | Cairo      | Cairo Governorate      |        | 01006664422  | ali.ramadan@example.com  | PIN Code must not be blank         | message6  | dsdasd   |
       | Ali Ramadan   | Male   | 11-23-1995 | 12 Lorem Ipsum Apartment | Cairo      | Cairo Governorate      | 123456 |              | ali.ramadan@example.com  | Mobile no must not be blank        | message7  | dsdasd   |
       | Ali Ramadan   | Male   | 11-23-1995 | 12 Lorem Ipsum Apartment | Cairo      | Cairo Governorate      | 123456 | asdsdasd sas | ali.ramadan@example.com  | Characters are not allowed         | message7  | dsdasd   |
-      | Ali Ramadan   | Male   | 11-23-1995 | 12 Lorem Ipsum Apartment | Cairo      | Cairo Governorate      | 123456 | 01006664422  | ali.ramadan              | Email-ID is not valid              | message8  | dsdasd   |
-      | Ali Ramadan   | Male   | 11-23-1995 | 12 Lorem Ipsum Apartment | Cairo      | Cairo Governorate      | 123456 | 01006664422  | ali.ramadan.com          | Email-ID is not valid              | message8  | dsdasd   |
-      | Ali Ramadan   | Male   | 11-23-1995 | 12 Lorem Ipsum Apartment | Cairo      | Cairo Governorate      | 123456 | asdsdasd sas |                          | Email-ID must not be blank         | message8  | dsdasd   |
-      | Ali Ramadan   | Male   | 11-23-1995 | 12 Lorem Ipsum Apartment | Cairo      | Cairo Governorate      | 123456 | 01006664422  | ali.ramadan@example.com  | Password must not be blank         | message9  |          |
+      | Ali Ramadan   | Male   | 11-23-1995 | 12 Lorem Ipsum Apartment | Cairo      | Cairo Governorate      | 123456 | 01006664422  | ali.ramadan              | Email-ID is not valid              | message9  | dsdasd   |
+      | Ali Ramadan   | Male   | 11-23-1995 | 12 Lorem Ipsum Apartment | Cairo      | Cairo Governorate      | 123456 | 01006664422  | ali.ramadan.com          | Email-ID is not valid              | message9  | dsdasd   |
+      | Ali Ramadan   | Male   | 11-23-1995 | 12 Lorem Ipsum Apartment | Cairo      | Cairo Governorate      | 123456 | asdsdasd sas |                          | Email-ID must not be blank         | message9  | dsdasd   |
+      | Ali Ramadan   | Male   | 11-23-1995 | 12 Lorem Ipsum Apartment | Cairo      | Cairo Governorate      | 123456 | 01006664422  | ali.ramadan@example.com  | Password must not be blank         | message18 |          |

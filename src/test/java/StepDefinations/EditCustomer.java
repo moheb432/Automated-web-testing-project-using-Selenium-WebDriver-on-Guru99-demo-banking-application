@@ -3,13 +3,9 @@ package StepDefinations;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
 import org.openqa.selenium.*;
 import org.testng.Assert;
 import resources.Utils;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import java.time.Duration;
 
 import java.io.IOException;
 
@@ -54,4 +50,5 @@ public class EditCustomer extends Utils {
     public void theWebsiteGives(String arg0) {
         Assert.assertTrue(true);
     }
+
 }

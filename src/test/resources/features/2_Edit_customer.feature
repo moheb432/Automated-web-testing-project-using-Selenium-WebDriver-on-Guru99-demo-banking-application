@@ -1,4 +1,4 @@
-Feature: Edit the customer
+Feature: Verify Edit the customer account
 Scenario Outline: Verify user can Edit customer Detials
   Given the user open the website provided valid login details "mngr647426" "vAsAvEg"
   Given user navigates to Edit Customer webpage and applied Valid customer ID
