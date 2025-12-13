@@ -1,5 +1,6 @@
 # Automated web testing project using Selenium WebDriver on Guru99 demo banking application.
 Implemented test scenarios for customer creation, editing, and validation using Java, TestNG, and Cucumber for BDD. The framework includes reusable functions, shared driver management, and hooks
+
 📎 Full Web demo link:  
 [Guru99 Banking Demo](https://demo.guru99.com/V4/index.php)
 
@@ -27,8 +28,7 @@ This repository includes:
 | Automation Framework | Selenium WebDriver + TestNG + Cucumber       |
 | Test Runner          | Maven                                        |
 | Manual Testing       | Guru99 Demo Web Application                  |
-| Performance Testing  | N/A                                          |
-| Reporting            | Cucumber HTML Reports, TestNG Execution Logs |
+| Reporting            | Cucumber HTML Reports, TestNG Execution Logs, allure ,jira Bug report |
 
 ---
 
@@ -61,9 +61,9 @@ This repository includes:
 
 # 📊 Execution Summary
 
-* **50 Total Test Cases**  
-* **40 Passed**  
-* **10 Failed**
+* **66 Total Test Cases**  
+* **50 Passed**  
+* **16 Failed**
 
 ### 🔎 Defects Identified
 
@@ -82,8 +82,7 @@ Execution performed:
 
 # Data-Driven Test Execution
 
-* CSV / Scenario Outline used for multi-scenario testing  
-* 30+ iterations executed  
+*  Scenario Outline used for multi-scenario testing  
 
 Observed issues:  
 
