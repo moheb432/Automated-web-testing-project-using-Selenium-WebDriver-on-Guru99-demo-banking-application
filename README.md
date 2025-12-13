@@ -27,8 +27,7 @@ This repository includes:
 | Automation Framework | Selenium WebDriver + TestNG + Cucumber       |
 | Test Runner          | Maven                                        |
 | Manual Testing       | Guru99 Demo Web Application                  |
-| Performance Testing  | N/A                                          |
-| Reporting            | Cucumber HTML Reports, TestNG Execution Logs |
+| Reporting            | Cucumber HTML Reports, TestNG Execution Logs, allure ,jira Bug report |
 
 ---
 
@@ -61,9 +60,9 @@ This repository includes:
 
 # 📊 Execution Summary
 
-* **50 Total Test Cases**  
-* **40 Passed**  
-* **10 Failed**
+* **66 Total Test Cases**  
+* **50 Passed**  
+* **16 Failed**
 
 ### 🔎 Defects Identified
 
@@ -82,8 +81,7 @@ Execution performed:
 
 # Data-Driven Test Execution
 
-* CSV / Scenario Outline used for multi-scenario testing  
-* 30+ iterations executed  
+*  Scenario Outline used for multi-scenario testing  
 
 Observed issues:  
 
